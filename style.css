@@ -1559,6 +1559,15 @@ p.entry-meta {
   ul {
     page-break-before: avoid; } }
 
+.neutral-grey {
+  background-color: #f1f1f1; }
+
+.dark-grey {
+  background-color: #cecece; }
+
+.page-cover-color {
+  background-color: #081b33; }
+
 @font-face {
   font-family: "arcon";
   src: url("https://www.sixpeakcapital.com/wp-content/themes/genesis-sample/fonts/arcon-regular.otf");
@@ -1608,22 +1617,41 @@ a {
 .footer-widgets {
   padding: 30px 0;
   margin-bottom: 0;
-  background-color: #3b3b3a;
-  color: #868686; }
+  background-color: #3b3b3a; }
 
 .footer-widgets h3 {
   color: #fff; }
 
 .footer-widgets p {
   font-size: 16px;
-  font-weight: thin; }
+  font-weight: thin;
+  color: #bbbbbb; }
 
 .site-footer {
   background-color: #3b3b3a;
   border-top: none; }
 
-.site-footer p {
-  color: #868686; }
+.site-footer p,
+.site-footer a {
+  color: #bbbbbb; }
+
+.footer-widgets-3 {
+  padding: 2.5rem 6.5rem 0; }
+
+.mc4wp-form-fields p {
+  margin: 0; }
+
+.mc4wp-form-fields input {
+  padding: 10px 15px;
+  height: 40px;
+  background-color: #4a4a4a;
+  border: 2px solid #4a4a4a;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+.email-form-submit-button {
+  margin-top: 15px; }
 
 .jumbo {
   height: 75vh;
@@ -1648,12 +1676,18 @@ a {
     font-weight: bold;
     width: 60%; } }
 
-.full-width-inner {
-  margin: 0 auto;
-  padding: 0 30px; }
-  @media only screen and (min-width: 960px) {
-    .full-width-inner {
-      width: 65%; } }
+@media only screen and (min-width: 960px) {
+  .wide-width-wrapper {
+    padding: 5%;
+    background-color: #f1f1f1; } }
+
+@media only screen and (min-width: 960px) {
+  .wide-width-inner {
+    padding: 0 2.5% !important; } }
+
+.no-top-padding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
 
 /* Blogger2wp.com - adjust anchor landing for fixed header */
 .anchor-wrapper a {
