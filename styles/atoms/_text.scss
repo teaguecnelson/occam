@@ -1,13 +1,38 @@
-p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-ul {
-  font-family: arcon;
+h6 {
+  font-family: "Nanum Myeongjo", serif;
   color: $text-color;
+  font-weight: 400 !important;
+}
+
+h1 {
+  @media only screen and (min-width: 960px) {
+    font-size: 3.5rem;
+    line-height: 1.1;
+  }
+}
+
+h2 {
+  margin: 0 0 50px;
+  @media only screen and (min-width: 960px) {
+    font-size: 3rem;
+    margin: 0 0 75px;
+  }
+}
+
+ul,
+p,
+.footer-widgets h3 {
+  color: $text-color;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.blue-h {
+  color: #252c22;
 }
 
 a {
