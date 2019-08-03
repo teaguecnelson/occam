@@ -1,6 +1,6 @@
 <?php
 /**
- * Genesis Sample Occam.
+ * Genesis Sample Westerly.
  *
  * This file adds functions to the Genesis Sample Theme.
  *
@@ -248,7 +248,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 // Change the footer text
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = 'Copyright [footer_copyright] Occam Holdings LLC &middot; All Rights Reserved<br />Made in Seattle by <a href="https://www.measuredux.com/">Measured Digital</a>';
+	$creds = 'Copyright [footer_copyright] Westerly Group LLC &middot; All Rights Reserved<br />Made in Seattle by <a href="https://www.measuredux.com/">Measured Digital</a>';
 	return $creds;
 }
 

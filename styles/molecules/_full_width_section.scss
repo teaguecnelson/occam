@@ -36,3 +36,41 @@
     padding: 0 8% !important;
   }
 }
+
+.section {
+  scroll-snap-align: start;
+  width: 100vw;
+}
+
+.translucent {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 50px;
+}
+
+.contact-section {
+  @media only screen and (min-width: 960px) {
+    margin-bottom: 60px;
+  }
+}
+
+.about-us-columns div {
+  @media only screen and (min-width: 960px) {
+    // padding: 1.5rem;
+  }
+}
+
+.about-us-columns div:first-child {
+  @media only screen and (min-width: 782px) {
+    margin-left: 16px;
+    border-right: 1px solid black;
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+}
+
+.about-us-columns .wp-block-column:not(:first-child) {
+  @media (min-width: 782px) {
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+}
