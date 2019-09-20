@@ -1,6 +1,11 @@
 ## Overview
 This Genesis Child Theme Was Adopted From The Genesis Sample Theme: https://github.com/studiopress/genesis-sample/.
-Browser Compatibility Checked on: Chrome version 74.0.3729.169 & Safari version 12.1.
+Browser Compatibility Checked on: 
+
+IOS 8-12 | Safari
+iPad 11 & 12 | Safari
+Mac El Capitan-Mojavi | Safari, Firefox, Chrome
+Windows 7-10 | Edge v15-18, IE v11, Firefox v61-69, Chrome v70-77 
 
 
 ## Git & Git Ignore
